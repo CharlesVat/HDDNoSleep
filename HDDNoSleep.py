@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # HDDNoSleep.py by Karel Dohnal
+# version 1.0
 # TKinter GUI program for preventing selected drive going to sleep using simple Input operation every given second.
 
 from tkinter import Tk
@@ -120,7 +121,7 @@ class HDDNoSleep():
 def main():            
     
     root = Tk()
-    hddNoSleep = HDDNoSleep(root)
+    HDDNoSleep(root)
     root.mainloop()
     
     
